@@ -1,0 +1,12 @@
+flask
+idna
+itsdangerous
+Jinja2
+joblib
+MarkupSafe
+numpy
+scikit-learn
+sklearn
+gunicorn
+datetime
+pandas
