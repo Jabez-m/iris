@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 import numpy as np
-import pickle
-model=pickle.load(open('pik.pkl','rb'))
+import joblib
+model=joblib.load('iris_lr.joblib')
 
 app=Flask(__name__)
 @app.route('/')
